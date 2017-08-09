@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Retro Barcode Maker</title>
+  </head>
+  <body>
+    <h1>Retro Barcode Maker</h1>
+      <div *ngFor='let color of shuffled' style="display: inline-block">
+        <div [ngStyle]="{
+        'background-color': color,
+        'height': '50px',
+        'width': '50px',
+        'display': 'inline-block'
+      }"></div>
+
+      </div>
+  </body>
+</html>
